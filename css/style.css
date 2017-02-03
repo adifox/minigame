@@ -130,7 +130,6 @@ body {
     }
 }
 .level2 {
-    animation: slidein 3s;
     height: 250px;
     width: 500px;
     margin-left: 350px;
@@ -138,5 +137,16 @@ body {
     box-sizing: border-box;
     position: absolute;
     background-image: url(../img/level-up.png);
+    background-size: cover;
+}
+
+.thankyou {
+    height: 110px;
+    width: 680px;
+    margin-left: 280px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url(../img/thanks.png);
     background-size: cover;
 }

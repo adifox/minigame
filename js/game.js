@@ -11,6 +11,7 @@ $('.score3').css('visibility','hidden');
 $('.score4').css('visibility','hidden');
 $('.score5').css('visibility','hidden');
 $('.level2').css('visibility','hidden');
+$('.thankyou').css('visibility','hidden');
 
 
 // ------ game start ---------//

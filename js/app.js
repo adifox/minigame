@@ -67,6 +67,9 @@ function checkCollisions(miniTop,bananaTop,miniLeft,bananaLeft) {
                  top: '-=40'
             });
         resetScore();
+        setTimeout(function() {
+            thankYou();
+        },4000);
         }
     }
 }
@@ -124,15 +127,21 @@ function resetScore(){
     $('.score5').css('visibility', 'hidden');
 }
 
-//$( "div" )
-//    .animate({ left:"+=200px" }, 2000 )
-//    .animate({ top:"0px" }, 600 )
-//    .queue(function() {
-//      $( this ).toggleClass( "red" ).dequeue();
-//    })
-//    .animate({ left:"10px", top:"30px" }, 700 );
-//
-//var badscoreCounter = scoreCounter;
+function thankYou(){
+    $('.banana').css('visibility','hidden');
+    $('.minion').css('visibility','hidden');
+    $('.score').css('visibility','hidden');
+    $('.turtle2').css('visibility','hidden');
+    $('.turtle').css('visibility','hidden');
+    $('.score-back').css('visibility','hidden');
+    $('.score1').css('visibility','hidden');
+    $('.score2').css('visibility','hidden');
+    $('.score3').css('visibility','hidden');
+    $('.score4').css('visibility','hidden');
+    $('.score5').css('visibility','hidden');
+    $('.level2').css('visibility','hidden');
+    $('.thankyou').css('visibility','visible');
+}
 
 
 
