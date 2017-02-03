@@ -16,7 +16,4 @@ Best regards,
 
 Lukas
 
-
-
-
-
+<img src="https://github.com/adifox/minigame/blob/master/devices2.jpg">
