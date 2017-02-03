@@ -53,7 +53,7 @@ function checkCollisions(miniTop,bananaTop,miniLeft,bananaLeft) {
         audioBanana.play();
         positiveScore();
 //        $('.score' + scoreCounter).css('visibility','visible');
-        if (scoreCounter === 2) {
+        if (scoreCounter === 3) {
             scoreCounter = 0;
             levelUpShow();
             levelUp.play();

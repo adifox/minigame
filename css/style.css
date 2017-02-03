@@ -86,23 +86,23 @@ body {
 
 }
 .turtle2 {
-    height: 70px;
-    width: 80px;
+    height: 160px;
+    width: 90px;
     box-sizing: border-box;
     position: absolute;
     left: 0px;
     top: 0px;
-    background-image: url(../img/turtle.png);
+    background-image: url(../img/foto1.png);
     background-size: cover;
 }
 .turtle {
-    height: 70px;
-    width: 80px;
+    height: 160px;
+    width: 100px;
     box-sizing: border-box;
     position: absolute;
     left: 0px;
     top: 0px;
-    background-image: url(../img/turtle.png);
+    background-image: url(../img/foto2.png);
     background-size: cover;
 }
 .start {

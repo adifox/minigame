@@ -36,7 +36,7 @@ function newDiv() {
 // movement of turtle number 2 //
 function turtle2Move(){
     var d = parseInt($('.turtle2').css('top'));
-    if (d > 530) {
+    if (d > 470) {
         $('.turtle2').css({
             'visibility': 'hidden',
             'left': getRandomX()
@@ -57,7 +57,7 @@ function turtle2Move(){
 // movememt of turtle number 1 //
 function turtleMove(){
     var d = parseInt($('.turtle').css('top'));
-    if (d > 530) {
+    if (d > 470) {
         $('.turtle').css({
             'visibility': 'hidden',
             'left': getRandomX()
