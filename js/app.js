@@ -128,6 +128,7 @@ function resetScore(){
 }
 
 function thankYou(){
+    audio.pause();
     $('.banana').css('visibility','hidden');
     $('.minion').css('visibility','hidden');
     $('.score').css('visibility','hidden');
